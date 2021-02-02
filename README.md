@@ -1,15 +1,26 @@
 
-# MOTIVAÇÃO:
+# MOTIVATION:
 
-A criação do site se motiva a ensinar pessoas de como utilizar o git da melhor forma no seu dia-a-dia.  Existem muitos sites que ensinam, porém mostra comandos que não irá usar em um projeto ou ainda não mostra comandos essenciais. 
+The creation of the site is motivated to teach people how to use git in the best way in their day-to-day. There are many websites that teach, however they show commands that you will not use.
 
-Mostro de forma sucinta e explicativa de cada comando, chamando a atenção de como  e quando usar.
+I show each command in a succinct and explanatory way, drawing attention to how and when to use it.
 
-Espero que tenha ajudado!
+Hope this helps :)
 
 # SITE:
 
 [GitTuts](https://gitutorial.netlify.app/)
 
 # SCREEN:
-<img width="1440" alt="Screen Shot 2020-08-07 at 13 31 17" src="https://user-images.githubusercontent.com/47581150/89668663-8973c500-d8b4-11ea-8d22-907d2e0d5824.png">
+
+**English:**
+
+<img width="1440" alt="Screen Shot 2021-02-02 at 11 55 03" src="https://user-images.githubusercontent.com/47581150/106617757-aa5c6080-654d-11eb-9626-92d74ba05a16.png">
+
+
+**Portuguese:**
+
+<img width="1440" alt="Screen Shot 2021-02-02 at 11 55 20" src="https://user-images.githubusercontent.com/47581150/106617735-a7617000-654d-11eb-8602-7ddd3b9a5694.png">
+
+
+
