@@ -82,7 +82,7 @@ require(["gitbook", "jQuery"], function(gitbook, $) {
 		let urlString =  window.location.href
 
 		if(urlString.includes('index') || urlString.includes('EN')){
-			optLang = 'PT-BR';
+			optLang = 'pt-br';
 		}else{
 			optLang = 'EN';
 
@@ -102,12 +102,12 @@ require(["gitbook", "jQuery"], function(gitbook, $) {
 								   e.preventDefault();
 								   let urlString =  window.location.href
 
-								   if(urlString.includes("EN_html") || urlString.includes("index")){
+								   if(urlString.includes("en_html") || urlString.includes("index")){
 									 
 										for (var key in dict){
 											if(urlString.includes(key)){
 											
-												window.location.replace("http://127.0.0.1:5500/Pt-Br_html/"+dict[key]+".html");
+												window.location.replace("https://lucid-bartik-341def.netlify.app/pt-br_html/"+dict[key]+".html");
 
 											}
 										}
@@ -123,10 +123,10 @@ require(["gitbook", "jQuery"], function(gitbook, $) {
 											if(urlString.includes(dict[key])){
 											
 												if(key.includes("index")){
-													window.location.replace("http://127.0.0.1:5500/"+key+".html");
+													window.location.replace("https://lucid-bartik-341def.netlify.app/"+key+".html");
 												}else{
 													console.log(dict[key])
-													window.location.replace("http://127.0.0.1:5500/EN_html/"+key+".html");
+													window.location.replace("https://lucid-bartik-341def.netlify.app/en_html/"+key+".html");
 												}
 											}
 										}
