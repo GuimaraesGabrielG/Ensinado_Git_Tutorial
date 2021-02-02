@@ -1,26 +1,26 @@
 var dict = { 
-	    "index" : "1-_Git" , 
-	    "2-_Overview_of_Git" : "2-_Introducao_de_sobre_Git" , 
-	    "3-_Initial_settings-EN" : "3-_Configuracoes_iniciais",
-	    "4-_Start_on_the_project-EN" : "4-_Inicio_no_projeto",
-	    "5-_Ignoring_files-EN" : "5-_Ignorando_arquivos",
-	    "6-_Removing_commit-EN" : "6-_Removendo_commit",
-	    "7-_Returning_Commit-EN" : "7-_Voltando_Commit",
-	    "8-_Branch-EN" : "8-_Branch",
-	    "9-_Starting_a_branch-EN" : "9-_Iniciando_uma_branch",
-	    "10-_Stash-EN"  : "10-_Stash",
-	    "11-_Joining_branch-EN" : "11-_Juntando_branch",
-	    "12-_Conflict-EN" : "12-_Conflito",
-	    "13-_Amend-EN" : "13-_Amend",
-	    "14-_Rebase-EN" : "14-_Rebase",
-	    "15-_Remote-EN" : "15-_Remoto",
-	    "16-_Github-EN" : "16-_Github",
-	    "17-_Terminal_and_Github-EN" : "17-_Terminal_e_Github",
-	    "18-_Fetch_and_Pull-EN" : "18-_Fetch_e_Pull",
-	    "19-_Push-EN" : "19-_Push",
-	    "20-_Serious_problems-EN" : "20-_Problemas_serios",
-	    "21-_Tag-EN" : "21-_Tag",
-	    "22-_Tools-EN" : "22-_Ferramentas"
+	    "index" : "1-_git" , 
+	    "2-_overview_of_git" : "2-_introducao_de_sobre_git" , 
+	    "3-_initial_settings-en" : "3-_configuracoes_iniciais",
+	    "4-_start_on_the_project-en" : "4-_inicio_no_projeto",
+	    "5-_ignoring_files-en" : "5-_ignorando_arquivos",
+	    "6-_removing_commit-en" : "6-_removendo_commit",
+	    "7-_returning_commit-en" : "7-_voltando_commit",
+	    "8-_branch-en" : "8-_branch",
+	    "9-_starting_a_branch-en" : "9-_iniciando_uma_branch",
+	    "10-_stash-en"  : "10-_stash",
+	    "11-_joining_branch-en" : "11-_juntando_branch",
+	    "12-_conflict-en" : "12-_conflito",
+	    "13-_amend-en" : "13-_amend",
+	    "14-_rebase-en" : "14-_rebase",
+	    "15-_remote-en" : "15-_remoto",
+	    "16-_github-en" : "16-_github",
+	    "17-_terminal_and_github-en" : "17-_terminal_e_github",
+	    "18-_fetch_and_pull-en" : "18-_fetch_e_pull",
+	    "19-_push-en" : "19-_push",
+	    "20-_serious_problems-en" : "20-_problemas_serios",
+	    "21-_tag-en" : "21-_tag",
+	    "22-_tools-en" : "22-_ferramentas"
 	  };
 	
 	  var optLang = ' ';
@@ -108,7 +108,7 @@ require(["gitbook", "jQuery"], function(gitbook, $) {
 										for (var key in dict){
 											if(urlString.includes(key)){
 											
-												window.location.replace("https://lucid-bartik-341def.netlify.app/pt-br_html/"+dict[key]+".html");
+												window.location.replace("https://gitutorial.netlify.app/pt-br_html/"+dict[key]+".html");
 
 											}
 										}
@@ -116,18 +116,20 @@ require(["gitbook", "jQuery"], function(gitbook, $) {
 								   }else{
 										
 										for (var key in dict){
-											console.log(key)
-											console.log(dict[key]);
-											console.log(urlString)
+
 
 											console.log("pass")
+											console.log(key)
+console.log(dict[key])
+											console.log(urlString)
 											if(urlString.includes(dict[key])){
 											
 												if(key.includes("index")){
-													window.location.replace("https://lucid-bartik-341def.netlify.app/"+key+".html");
+													window.location.replace("https://gitutorial.netlify.app/"+key+".html");
 												}else{
+													console.log()
 													console.log(dict[key])
-													window.location.replace("https://lucid-bartik-341def.netlify.app/en_html/"+key+".html");
+													window.location.replace("https://gitutorial.netlify.app/en_html/"+key+".html");
 												}
 											}
 										}

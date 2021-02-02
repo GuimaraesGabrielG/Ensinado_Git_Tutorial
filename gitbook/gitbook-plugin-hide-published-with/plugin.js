@@ -8,13 +8,13 @@ require(["gitbook"], function(gitbook) {
 
         console.log(urlString)
 
-        if(urlString == "https://lucid-bartik-341def.netlify.app/"){
-                window.location.replace("https://lucid-bartik-341def.netlify.app/index.html");
+        if(urlString == "https://gitutorial.netlify.app/"){
+                window.location.replace("https://gitutorial.netlify.app/index.html");
 
         }
 
-        if(urlString == "https://lucid-bartik-341def.netlify.app/en_html/"){
-            window.location.replace("https://lucid-bartik-341def.netlify.app/index.html");
+        if(urlString == "https://gitutorial.netlify.app/en_html/"){
+            window.location.replace("https://gitutorial.netlify.app/index.html");
 
         }
         // $('ul.summary li li').hide();
