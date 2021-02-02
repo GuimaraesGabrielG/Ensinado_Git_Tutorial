@@ -81,10 +81,10 @@ require(["gitbook", "jQuery"], function(gitbook, $) {
 	gitbook.events.bind("start", function(e, config) {
 		let urlString =  window.location.href
 
-		if(urlString.includes('index') || urlString.includes('EN')){
+		if(urlString.includes('index') || urlString.includes('en')){
 			optLang = 'pt-br';
 		}else{
-			optLang = 'EN';
+			optLang = 'en';
 
 		}
 		var opts = config["language-picker"];
@@ -102,6 +102,7 @@ require(["gitbook", "jQuery"], function(gitbook, $) {
 								   e.preventDefault();
 								   let urlString =  window.location.href
 
+								   console.log(urlString)
 								   if(urlString.includes("en_html") || urlString.includes("index")){
 									 
 										for (var key in dict){
